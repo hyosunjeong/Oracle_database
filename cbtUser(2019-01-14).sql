@@ -1,0 +1,16 @@
+CREATE TABLE tbl_cbt(
+cb_num	NUMBER(5)		PRIMARY KEY,
+cb_que	nVARCHAR2(100)	NOT NULL,	
+cb_ex1	nVARCHAR2(100)	NOT NULL,	
+cb_ex2	nVARCHAR2(100)	NOT NULL,	
+cb_ex3	nVARCHAR2(100)	NOT NULL,	
+cb_ex4	nVARCHAR2(100)	NOT NULL,	
+cb_ans	nVARCHAR2(100)		
+);
+
+
+SELECT * FROM tbl_cbt;
+
+DROP TABLE tbl_cbt;
+COMMIT;
+
